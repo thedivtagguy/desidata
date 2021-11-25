@@ -1,11 +1,10 @@
-Package: indiaR
+Package: desidata
 Type: Package
 Title: Easily Accessible Datasets on India Within RStudio
 Version: 0.1.0
 Author: Aman Bhargava
 Maintainer: Aman Bhargava <amanbhargava2001@gmail.com>
-Description: A structured, searchable repository of datasets related to India
-        that can be downloaded from right within RStudio. For educational and training purposes.
-License: GNU GPLv3
+Description: This package provides datasets on India organized across several categories that can be downloaded within RStudio and are selected with having teaching data cleaning and basic visualizations in mind.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

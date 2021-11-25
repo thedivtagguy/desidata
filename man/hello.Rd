@@ -1,12 +1,12 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{strsplit1}
+\alias{strsplit1}
+\title{Split String}
 \usage{
-hello()
+strsplit1(x, split)
 }
 \description{
-Prints 'Hello, world!'.
+Splits String
 }
 \examples{
-hello()
+strsplit1("hello, this, is a string", split = ",")
 }
