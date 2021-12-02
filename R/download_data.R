@@ -1,7 +1,16 @@
-download_data <- function(name, ...) {
-  about_ <- about
-  within_ <- within
-  name <- "dd-sportf-aman-2342"
+#' Download dataset with ID
+#'
+#' @param name ID of dataset
+#'
+#' @return an object containing relevant dataset files
+#' @export
+#'
+#' @examples
+#'
+#' download_data(name = 'dd-monty-python-2021-03-2')
+#'
+download_data <- function(name) {
+
   message("Fetching datasets...")
   # Function to take in JSON and return a dataframe
   jsonReader <- function(json_link) {
@@ -57,9 +66,7 @@ download_data <- function(name, ...) {
     dplyr::select(.data$download_url, .data$id) %>%
     tidyr::nest()
 
-  urls <- fileList$data[[1]][[1]]
 
-  download.file(urls[1])
 
 
   # descriptions <- fileList %>%
