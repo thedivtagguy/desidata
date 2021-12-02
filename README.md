@@ -3,6 +3,8 @@
 
 # desidata 📦
 
+<img src="sticker.png" width="300" height="300">
+
 <!-- badges: start -->
 <!-- badges: end -->
 
