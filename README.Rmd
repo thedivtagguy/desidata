@@ -4,14 +4,6 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 #  desidata 📦
 
@@ -24,38 +16,39 @@ Library of datasets relevant to India available as easy one-line downloads withi
 
 ## Installation
 
-You can install the released version of desidata from [CRAN](https://CRAN.R-project.org) with:
 
-``` r
-install.packages("desidata")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("thedivtagguy/desidata")
 ```
 
+View datasets and associated Python cleaning scripts at [desidatasets](https://github.com/thedivtagguy/desidatasets)
+
 ## v 0.1.0 Roadmap
 
-1.  Organized categories
+- [x]  Organized categories
 
-2.  Handle Github API limits
+- [x]  CMS for dataset addition
 
-3.  Function to list categories
+- [x]  DESCRIPTION and DICTIONARY file generation for each dataset.
 
-4.  Shiny app to select within categories
+- [ ]  Handle Github API limits
 
-5.  Thumbnails for shiny app listings
+- [x]  Function to list categories
 
-6.  Function to download dataset, with optional clean/raw version
+- [ ]  Shiny app to select within categories
 
-7.  15-20 datasets
+- [x]  Thumbnails for shiny app listings
 
-8.  README files for each dataset with source details and suggested workflows.
+- [ ]  Function to download dataset, with optional clean/raw version
 
-9.  License information for each dataset.
+- [ ]  15-20 datasets
+
+- [x]  README files for each dataset with source details.
+
+- [x]  License information for each dataset.
 
 ## Contributions
 
@@ -69,7 +62,7 @@ Code is distributed under the GNU General Public License. For datasets, I will t
 
 ##  Contact
 
-Aman Bhargava - [thedivtagguy](https://twitter.com/thedivtagguy) - amanbhargava2001[@]gmail
+Aman Bhargava - [thedivtagguy](https://twitter.com/thedivtagguy) - amanbhargava2001[@]gmail.com
 
 
 
